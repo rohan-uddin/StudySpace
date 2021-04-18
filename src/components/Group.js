@@ -43,7 +43,7 @@ const Group = (props) => {
 
             const onCreateAPost = async (formValues) => {
                 const dataProperties = {
-                    group_id: `http://studyspace-backend.herokuapp.com/Groups/${mainGroup.id}/`,
+                    group_id: `https://studyspace-backend.herokuapp.com/Groups/${mainGroup.id}/`,
                     author: "https://studyspace-backend.herokuapp.com/Users/1/",
                     upvotes: 0,
                     slug: `${mainGroup.slug}`,
